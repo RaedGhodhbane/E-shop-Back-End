@@ -1,4 +1,4 @@
-package org.sid.salesmanagement.models;
+package org.sid.salesmanagement.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.ManyToOne;

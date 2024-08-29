@@ -1,4 +1,4 @@
-package org.sid.salesmanagement.repositories;
+package org.sid.salesmanagement.repository;
 
 import org.sid.salesmanagement.entities.Article;
 import org.springframework.data.jpa.repository.JpaRepository;

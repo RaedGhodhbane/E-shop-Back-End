@@ -15,6 +15,6 @@ public class Etatcmd {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String lib;
-    @OneToMany(mappedBy = "etatCmd")
+    @OneToMany(mappedBy = "etatcmd")
     private List<Commande> commande;
 }

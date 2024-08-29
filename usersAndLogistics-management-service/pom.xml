@@ -57,7 +57,8 @@
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<artifactId>spring-cloud-openfeign-core</artifactId>
+			<version>3.0.2</version>
 		</dependency>
 
 		<dependency>

@@ -1,10 +1,8 @@
-package org.sid.salesmanagement.models;
+package org.sid.salesmanagement.model;
 
 import jakarta.persistence.OneToMany;
 import lombok.Data;
 import org.sid.salesmanagement.entities.Commande;
-
-import java.sql.Blob;
 
 @Data
 public class Utilisateur {

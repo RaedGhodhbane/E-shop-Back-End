@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.sid.salesmanagement.models.Utilisateur;
+import org.sid.salesmanagement.model.Utilisateur;
 
 import java.util.Date;
 

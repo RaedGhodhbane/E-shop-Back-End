@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.sid.salesmanagement.models.Livraison;
+import org.sid.salesmanagement.model.Livraison;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor @Builder
