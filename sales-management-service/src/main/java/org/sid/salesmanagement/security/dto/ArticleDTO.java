@@ -12,4 +12,7 @@ public class ArticleDTO {
     private int discountRate;
     private String image;
     private String description;
+    private MarqueDTO marque;
+    private CategorieDTO categorie;
+    private LivraisonDTO livraison;
 }
