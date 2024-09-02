@@ -1,6 +1,5 @@
 package org.sid.salesmanagement.security.service;
 
-import org.modelmapper.ModelMapper;
 import org.sid.salesmanagement.entities.Article;
 import org.sid.salesmanagement.repository.ArticleRepository;
 import org.sid.salesmanagement.security.dto.ArticleDTO;
@@ -35,7 +34,7 @@ public class ArticleService {
     public List<ArticleDTO> getAllArticles() {
         return articleRepository.findAll().stream()
                 .map(articleMapper::articleToArticleDTO)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     public ArticleDTO updateArticle(Long id, ArticleDTO articleDTO) {

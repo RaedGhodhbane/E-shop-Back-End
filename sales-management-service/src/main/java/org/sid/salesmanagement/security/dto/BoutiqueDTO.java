@@ -11,4 +11,5 @@ public class BoutiqueDTO {
     private String tel;
     private String email;
     private String description;
+    private LivraisonDTO livraisonDTO;
 }
