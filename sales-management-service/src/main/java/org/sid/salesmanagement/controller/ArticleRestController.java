@@ -17,8 +17,8 @@ public class ArticleRestController {
     @Autowired
     private ArticleService articleService;
 
-    @Autowired
-    private ArticleMapper articleMapper; // Injection du mapper
+    //@Autowired
+    //private ArticleMapper articleMapper; // Injection du mapper
 
     @PostMapping
     public ResponseEntity<ArticleDTO> createArticle(@RequestBody ArticleDTO articleDTO) {

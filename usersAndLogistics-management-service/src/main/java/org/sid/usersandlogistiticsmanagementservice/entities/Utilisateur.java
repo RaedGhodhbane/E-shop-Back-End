@@ -5,9 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.sid.usersandlogistiticsmanagementservice.models.Commande;
+import org.sid.usersandlogistiticsmanagementservice.model.Commande;
 
-import java.sql.Blob;
 import java.util.List;
 
 @Entity

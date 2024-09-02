@@ -1,4 +1,4 @@
-package org.sid.usersandlogistiticsmanagementservice.models;
+package org.sid.usersandlogistiticsmanagementservice.model;
 
 import lombok.Data;
 

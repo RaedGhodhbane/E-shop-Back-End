@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor @Builder
-public class ModelLivraison {
+public class ModeLivraison {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
