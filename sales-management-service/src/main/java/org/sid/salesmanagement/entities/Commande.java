@@ -20,7 +20,7 @@ public class Commande {
     private String description;
     @ManyToOne
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private Etatcmd etatcmd;
+    private EtatCmd etatcmd;
     @ManyToOne
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private Facture facture;
