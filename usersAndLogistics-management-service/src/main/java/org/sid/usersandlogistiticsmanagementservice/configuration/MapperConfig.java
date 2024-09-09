@@ -1,6 +1,7 @@
 package org.sid.usersandlogistiticsmanagementservice.configuration;
 
 import org.mapstruct.factory.Mappers;
+import org.sid.usersandlogistiticsmanagementservice.security.mapper.AdresseMapper;
 import org.sid.usersandlogistiticsmanagementservice.security.mapper.LivraisonMapper;
 import org.sid.usersandlogistiticsmanagementservice.security.mapper.ModeLivraisonMapper;
 import org.springframework.context.annotation.Bean;
@@ -18,5 +19,9 @@ public class MapperConfig {
     public ModeLivraisonMapper modeLivraisonMapper() {
         return Mappers.getMapper(ModeLivraisonMapper.class);
     }
+    @Bean
+    public AdresseMapper adresseMapper() {return Mappers.getMapper(AdresseMapper.class);}
+
 }
+
 
