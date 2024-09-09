@@ -23,5 +23,14 @@ public class MapperConfig {
 
     @Bean
     public ChariotMapper chariotMapper() {return Mappers.getMapper(ChariotMapper.class);}
+
+    @Bean
+    public CommandeMapper commandeMapper() {return Mappers.getMapper(CommandeMapper.class);}
+
+    @Bean
+    public EtatCmdMapper etatcmdMapper() {return Mappers.getMapper(EtatCmdMapper.class);}
+
+    @Bean
+    public FactureMapper factureMapper() {return Mappers.getMapper(FactureMapper.class);}
 }
 

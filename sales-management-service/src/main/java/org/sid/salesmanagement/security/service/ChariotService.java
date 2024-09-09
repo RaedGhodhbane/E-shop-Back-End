@@ -33,7 +33,7 @@ public class ChariotService {
     public List<ChariotDTO> getAllChariots() {
         return chariotRepository.findAll().stream()
                 .map(chariotMapper::chariotToChariotDTO)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     public ChariotDTO updateChariot(Long id, ChariotDTO chariotDTO) {
