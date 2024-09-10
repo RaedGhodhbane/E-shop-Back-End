@@ -27,7 +27,7 @@ public class ModeLivraisonRestController {
     }
 
     @GetMapping
-    public ResponseEntity<List<ModeLivraisonDTO>> getAllModeLivraison() {
+    public ResponseEntity<List<ModeLivraisonDTO>> getAllModeLivraisons() {
         List<ModeLivraisonDTO> modeLivraisonsDTO = modeLivraisonService.getAllModeLivraisons();
         return ResponseEntity.ok(modeLivraisonsDTO);
     }

@@ -1,20 +1,15 @@
-package org.sid.usersandlogistiticsmanagementservice.entities;
+package org.sid.usersandlogistiticsmanagementservice.security.dto;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.sid.usersandlogistiticsmanagementservice.entities.Adresse;
 import org.sid.usersandlogistiticsmanagementservice.model.Commande;
 
 import java.util.List;
 
-@Entity
-@Data @NoArgsConstructor @AllArgsConstructor @Builder
-public class Utilisateur {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+@Data @NoArgsConstructor @AllArgsConstructor
+public class UtilisateurDTO {
     private String mail;
     private String login;
     private String mdp;
@@ -23,8 +18,6 @@ public class Utilisateur {
     private String prenom;
     private String tel;
     private String image;
-    @OneToMany(mappedBy = "utilisateur")
     private List<Adresse> adresses;
-    @Transient
     private Commande commande;
 }
